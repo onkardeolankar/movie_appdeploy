@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: 1.5rem;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+
+.added-color {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.add-color {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.movie-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-container {
+  /* background-color: orange; */
+  width: 340px;
+  height: min-content;
+}
+
+.movie-poster {
+  width: 340px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.movie-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.movie-summary {
+  margin-top: 0;
+}
+
+.movie-rating {
+  font-size: 18px;
+}
+
+.movie-list-container {
+  margin-top: 5vh;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.add-movie-form{
+  margin-top: 2vh;
+  height: auto;
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-movie-form button{
+  height: 10vh;
+  align-self: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
